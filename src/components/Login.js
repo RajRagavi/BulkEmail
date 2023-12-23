@@ -61,6 +61,9 @@ const Login = () => {
           Login
         </button>
       </form>
+              <p className="text-right">
+              Already registered <a href="/register">sign up?</a>
+            </p>
     </div>
     </div>
     </div>
