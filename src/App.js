@@ -7,6 +7,7 @@ import Maillist from './components/Maillist';
 import Navbar from './components/Navbar';
 import SendEmail from './components/SendEmail';
 import Login from './components/Login';
+import Register from './components/Register';
 
 const App = () => {
  
@@ -16,6 +17,7 @@ const App = () => {
       <Routes>
         
         <Route path="/" element={<Login />} />
+        <Route path="/register" element={<Register />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/userlist" element={<UserList />} />
         <Route path="/maillist" element={<Maillist />} />
